@@ -42,19 +42,19 @@ a, a:hover{
 .header-section .menu .btn-info{
 	padding: 5px 30px;
 	background: #fff;
-	color: #15215d;
-	border: 1px solid #fff;
+	color: #1955A3;
+	border: 0px solid #fff;
 	border-radius: 12px;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 600;
 	letter-spacing: 1px;
 	margin-left: 10px;
 	transition: 1s ease-in-out;
 }
 .header-section .menu .btn-info:hover, .header-section .menu .btn-info:focus{
-	background: #2870db;
+	background: #1955A3;
 	color: #fff;
-	border: 1px solid #2870db;
+	border: 0px solid #231F4F;
 	box-shadow: none;
 }
 /*Header section banner starts here*/	
@@ -84,7 +84,7 @@ a, a:hover{
     color: #b8b4c7;
 }
 .header-section .banner .banner-inner .btn{
-	box-shadow: 0px 5px 10px 5px #cfdcec;
+	box-shadow: 0px 12px 10px rgba(40,112,219,0.3);
 }
 .header-section .banner .banner-inner .btn-info{
 	padding: 14px 45px;
@@ -140,7 +140,7 @@ a, a:hover{
     color: #5f7782;
 }
 .envision .btn{
-	box-shadow: 0px 5px 10px 5px #cfdcec;
+	box-shadow: 0px 12px 10px rgba(40,112,219,0.3);
 	position: absolute;
 	bottom: 45%;
     right: 18%;
