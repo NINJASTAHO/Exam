@@ -85,7 +85,7 @@ a, a:hover{
 	box-shadow: 0px 5px 10px 5px #cfdcec;
 }
 .header-section .banner .banner-inner .btn-info{
-	padding: 16px 45px;
+	padding: 14px 45px;
     margin-top: 10px;
     background: #2870db;
     color: #fff;
@@ -104,7 +104,7 @@ a, a:hover{
 /*Envision section starts here*/
 .envision{
 	width: 100%;
-    padding: 70px 0px 90px;
+    padding: 40px 0px 90px;
     text-align: center;
     position: relative;
 }
@@ -113,7 +113,7 @@ a, a:hover{
 	font-weight: 800;
 	/*line-height: 38px;*/
 	color: #263238;
-	padding-bottom: 150px;
+	padding-bottom: 200px;
 }
 .envision .card{
 	width: 110%;
@@ -163,7 +163,7 @@ a, a:hover{
 /*Support section starts here*/
 .support{
 	width: 100%;
-	padding-bottom: 80px;
+	padding-bottom: 100px;
 	text-align: center;
 }
 .support h2{
@@ -183,4 +183,172 @@ a, a:hover{
 	font-size: 25px;
     font-weight: 700;
     color: #2a63ab;
+}
+/*Protecting section starts here*/
+.protecting{
+	width: 100%;
+	padding: 20px 195px 115px;
+	text-align: center;
+}
+.protecting h2{
+	font-size: 29px;
+	font-weight: 800;
+	/*line-height: 38px;*/
+	color: #263238;
+	padding-bottom: 60px;
+}
+.protecting .card{
+	border-radius: 1.25rem;
+	text-align: left;
+	border: none;
+    box-shadow: 0px 5px 10px 10px #f7f9fb;
+}
+.protecting .card .card-body{ 
+	width: 100%;
+	padding: 25px;
+}
+.protecting .card .card-body h5{
+	font-size: 19px;
+    font-weight: 800;
+    color: #263238;
+    margin-bottom: 22px;
+}
+.protecting .card .card-body p{
+	font-size: 15px;
+    font-weight: 500;
+    color: #5f7782;
+}
+.protecting .card .btn-primary {
+    font-size: 15px;
+    font-weight: 600;
+    color: #5e94e4;
+    background-color: #fff; 
+    border: none; 
+    padding: 0px;
+}
+.protecting .card .btn-primary:hover, .protecting .card .btn-primary:focus{
+	color: #2870db;
+	background-color: #fff;
+	border: none;
+	box-shadow: none !important;
+}
+/*Receive section starts here*/
+.receive{
+	width: 68%;
+	padding: 40px 0px;
+	margin-left: 15%;
+	text-align: center;
+	background: url("../images/rbg.png") center top no-repeat;
+	background-size: cover;
+	position: relative;
+	/*box-shadow: 0px 0px 10px 0px #164fa1;*/
+	border-radius: 15px; 
+}
+.receive h2{
+	padding: 0px 80px;
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.receive .form {
+    width: 50%;
+    padding: 0px 45px;
+    margin-left: 24%;
+}
+.receive .form .form-control{
+	width: 100%;
+	padding: 15px;
+	font-size: 14px;
+	color: #2870db;
+	border-radius: 12px;
+	border: none;
+	margin-bottom: 20px;
+}
+.receive .form .btn-info{
+	padding: 13px 35px;
+    margin: 25px 0px;
+    background: #00aeff;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 1s ease-in-out;
+}
+.receive .form .btn-info:hover, .receive .form .btn-info:focus{
+	background: #fff;
+	color: #00aeff;
+	box-shadow: none;
+	border: none;
+}
+/*Footer-widget starts here*/
+.footer-widget{
+	width: 100%;
+	padding: 80px 0px 40px;
+	color: #ffffff;
+}
+.footer-widget .inner-widget{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -170px;
+    margin-left: 75px;
+}
+.footer-widget h5{
+	font-size: 14px;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+}
+.footer-widget p, a{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 200;
+}
+.footer-widget .about p, .footer-widget .programs p, .footer-widget .trails p, .footer-widget .resources p{
+	line-height: 32px;
+}
+.footer-widget a:hover{
+	color: #00aeff;
+	text-decoration: none;
+}
+/*footer section*/
+.footer-section{
+	width: 100%;
+	padding-bottom: 60px;
+}
+.footer-section .social-icons{
+	width: 100%;
+	text-align: center;
+}
+.footer-section .social-icons ul{
+	display: inline;
+}
+.footer-section .social-icons ul li{
+	display: inline-block;
+	list-style: none;
+}
+.footer-section .social-icons ul li a{
+	text-align: center;
+	color: #2376cf;
+	font-size: 18px;
+}
+.footer-section .social-icons ul li a .fa{
+	width: 40px;
+	height: 40px;
+	margin-right: 8px;
+	line-height: 40px;	
+	background: #fff;
+	border-radius: 50%;
+}
+.footer-section .social-icons ul li a .fa-facebook:hover{
+	color: #3b5998;
+}
+.footer-section .social-icons ul li a .fa-twitter:hover{
+	color: #55acee;
+}
+.footer-section .social-icons ul li a .fa-instagram:hover{
+	color: #DC5238;
 }
