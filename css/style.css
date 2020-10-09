@@ -358,13 +358,17 @@ a, a:hover{
 	line-height: 40px;	
 	background: #fff;
 	border-radius: 50%;
+	transition: .5s ease-in-out;
 }
 .footer-section .social-icons ul li a .fa-facebook:hover{
-	color: #3b5998;
+	color: #fff;
+	background: #3b5998; 
 }
 .footer-section .social-icons ul li a .fa-twitter:hover{
-	color: #55acee;
+	color: #fff;
+	background: #55acee; 
 }
 .footer-section .social-icons ul li a .fa-instagram:hover{
-	color: #DC5238;
+	color: #fff;
+	background: #DC5238;
 }
