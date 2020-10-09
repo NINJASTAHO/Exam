@@ -288,27 +288,35 @@ a, a:hover{
 /*Footer-widget starts here*/
 .footer-widget{
 	width: 100%;
-	padding: 80px 0px 40px;
+	padding: 80px 210px 40px 170px;
 	color: #ffffff;
+	display: inline-block;
+	/*position: relative;*/
 }
 .footer-widget .inner-widget{
+    /*position: absolute;*/
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    flex-wrap: wrap;/*
     margin-right: -170px;
-    margin-left: 75px;
+    margin-left: 75px;*/
 }
 .footer-widget h5{
-	font-size: 14px;
+	font-size: 13px;
 	margin-bottom: 15px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 .footer-widget p, a{
-	color: #ffffff;
-	font-size: 13px;
+	color: #e3ebf5;
+	font-size: 12px;
 	font-weight: 200;
 }
+/*.footer-widget .about, .footer-widget .programs, .footer-widget .trails, .footer-widget .resources{
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 0px 20px 0px;
+}*/
 .footer-widget .about p, .footer-widget .programs p, .footer-widget .trails p, .footer-widget .resources p{
 	line-height: 32px;
 }
@@ -317,16 +325,16 @@ a, a:hover{
 	text-decoration: none;
 }
 /*footer section*/
-.footer-section{
+/*.footer-section{
 	width: 100%;
-	padding-bottom: 60px;
-}
+}*/
 .footer-section .social-icons{
 	width: 100%;
-	text-align: center;
+	text-align: left;
+	padding: 40px 0px 0px;
 }
 .footer-section .social-icons ul{
-	display: inline;
+	display: block;
 }
 .footer-section .social-icons ul li{
 	display: inline-block;
