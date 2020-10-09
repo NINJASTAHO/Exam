@@ -63,14 +63,10 @@ a, a:hover{
 	padding: 70px 0px 285px;
 	position: relative;
 }
-.header-section .banner .col-md-12{
-	margin-top: -45px;
-    padding: 0px 140px;
-}
+
 .header-section .banner .banner-inner{
-	/*width: 100%;*/
-	/*padding: 0px 0px 150px;*/
 	position: absolute;
+	padding: 0px 15px;
 }
 .header-section .banner .banner-inner h1 {
     font-size: 38px;
@@ -80,10 +76,10 @@ a, a:hover{
     margin-bottom: 25px;
 }
 .header-section .banner .banner-inner p {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 30px;
-    font-weight: 400;
-    color: #b8b4c7;
+    font-weight: 500;
+    color: #756d91;
 }
 .header-section .banner .banner-inner .btn{
 	box-shadow: 0px 12px 10px rgba(40,112,219,0.3);
@@ -120,7 +116,7 @@ a, a:hover{
 	padding-bottom: 210px;
 }
 .envision .card{
-	width: 108%;
+	width: 100%;
 	border-radius: 12px;
 	margin-bottom: 45px;
 	border: 0px;
@@ -128,7 +124,7 @@ a, a:hover{
 	box-shadow: 0px 5px 10px 10px rgb(236, 242, 248, .8);
 }
 .envision .card-body {
-    padding: 40px 15px 40px 35px;
+    padding: 30px 20px 40px 30px;
     text-align: left;
     border: 0px;
 }
@@ -146,13 +142,12 @@ a, a:hover{
 }
 .envision .btn{
 	box-shadow: 0px 12px 10px rgba(40,112,219,0.3);
-	position: absolute;
-	bottom: 45%;
-    right: 18%;
+	/*position: absolute;*/
 }
 .envision .btn-info{
-	padding: 15px 40px;
-    margin-top: 10px;
+	padding: 14px 35px;
+    margin-top: 30%;
+    margin-left: 10%;
     background: #2870db;
     color: #fff;
     border: 1px solid #2870db;
@@ -209,6 +204,11 @@ a, a:hover{
 	text-align: left;
 	border: none;
     box-shadow: 0px 0px 20px rgba(40,112,219, .1);
+    margin-bottom: 20px;
+}
+.protecting .card .card-img, .card-img-top {
+    border-top-left-radius: calc(1.25rem - 1px);
+    border-top-right-radius: calc(1.25rem - 1px);
 }
 .protecting .card .card-body{ 
 	width: 100%;
